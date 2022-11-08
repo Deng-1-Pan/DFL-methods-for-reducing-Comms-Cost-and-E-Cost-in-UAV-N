@@ -1,0 +1,30 @@
+{
+	
+	"model_name" : "resnet18",
+	
+	"no_models" :20,
+	
+	"type" : "cifar",
+	
+	"global_epochs" :30,
+
+	"local_epochs" : 3,
+
+	"Method" : "N",
+
+	"Cluester Head Situation" : "M",
+
+	"Local round" : 5,
+
+	"Global round" : 10,
+	
+	"batch_size" : 32, 
+	
+	"lr" : 0.001,
+	
+	"momentum" : 0.0001,
+	
+	"lambda" : 0.1,
+
+	"Drone Selection" : "Fix"
+}
